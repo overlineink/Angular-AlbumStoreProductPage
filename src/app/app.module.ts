@@ -9,7 +9,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 
 import { ProductService } from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
-import { PtoductListComponent } from './ptoduct-list/ptoduct-list.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { PtoductListComponent } from './ptoduct-list/ptoduct-list.component';
     ProductPageComponent,
     ProductDescriptionComponent,
     ProductTracklistingComponent,
-    PtoductListComponent
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
