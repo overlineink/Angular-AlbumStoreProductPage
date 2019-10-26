@@ -8,6 +8,7 @@ import { Album } from "./album";
 export class ProductService {
 
   private _albumUrl = "../assets/album.json";
+  private _productsUrl = "../assets/products.json";
   constructor(private _http: Http) { }
 
   getAlbum(id: number): Observable<Album> {
