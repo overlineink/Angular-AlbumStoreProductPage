@@ -17,5 +17,9 @@ export class ProductService {
 
     .map(response => <Album>response.json());
   }
+  
+  getProducts() {
+    
+  } 
 
 }
