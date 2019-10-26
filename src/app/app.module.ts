@@ -16,6 +16,10 @@ const appRoutes: Router = [
   {
     path: 'products',
     component: ProductListComponent
+  },
+  {
+    path: 'product/:id',
+    component: ProductPageComponent
   }
 ];
 
